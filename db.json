@@ -29,7 +29,7 @@
       "is_active": false
     },
     {
-      "id": 2,
+      "id": 3,
       "school": {
         "id": 3,
         "name": "Colegio ACOLSURE",
@@ -41,9 +41,22 @@
       "email": "natacano001@gmail.com",
       "password": "12345678**",
       "is_active": true
+    },
+    {
+      "school": {
+        "id": 3,
+        "name": "Colegio ACOLSURE",
+        "city": "Barranquilla",
+        "is_active": false
+      },
+      "first_name": "Matías",
+      "last_name": "Beleño",
+      "email": "matiasbelenio@correo.com",
+      "password": "12345678**",
+      "is_active": true,
+      "id": 5
     }
   ],
-
   "schools": [
     {
       "id": 1,
@@ -64,20 +77,29 @@
       "is_active": false
     }
   ],
-
   "pins": [
     {
       "id": 1,
-      "user_id": 1,
-      "school_id": 1,
+      "value": "AKL156",
+      "school": {
+        "id": 1,
+        "name": "Colegio Antonio Nariño",
+        "city": "Bogotá D.C.",
+        "is_active": true
+      },
       "is_new": true,
       "is_active": false,
       "level": 10
     },
     {
       "id": 2,
-      "user_id": 2,
-      "school_id": 2,
+      "value": "EWP263",
+      "school": {
+        "id": 3,
+        "name": "Colegio ACOLSURE",
+        "city": "Barranquilla",
+        "is_active": false
+      },
       "is_new": true,
       "is_active": true,
       "level": 8
