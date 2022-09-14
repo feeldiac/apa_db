@@ -1,0 +1,86 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "school": {
+        "id": 1,
+        "name": "Colegio Antonio Nariño",
+        "city": "Bogotá D.C.",
+        "is_active": true
+      },
+      "first_name": "Fabricio Andrés",
+      "last_name": "Ele Ricotta",
+      "email": "fabelle22@gmail.com",
+      "password": "82hAtv6P57",
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "school": {
+        "id": 2,
+        "name": "Escuela Normal Superior del Distrito",
+        "city": "Sopó",
+        "is_active": true
+      },
+      "first_name": "Catalina",
+      "last_name": "Manjarrés Suárez",
+      "email": "catmasu_1@gmail.com",
+      "password": "uK2c3GR749",
+      "is_active": false
+    },
+    {
+      "id": 2,
+      "school": {
+        "id": 3,
+        "name": "Colegio ACOLSURE",
+        "city": "Barranquilla",
+        "is_active": false
+      },
+      "first_name": "Natanael",
+      "last_name": "Cano",
+      "email": "natacano001@gmail.com",
+      "password": "12345678**",
+      "is_active": true
+    }
+  ],
+
+  "schools": [
+    {
+      "id": 1,
+      "name": "Colegio Antonio Nariño",
+      "city": "Bogotá D.C.",
+      "is_active": true
+    },
+    {
+      "id": 2,
+      "name": "Escuela Normal Superior del Distrito",
+      "city": "Sopó",
+      "is_active": true
+    },
+    {
+      "id": 3,
+      "name": "Colegio ACOLSURE",
+      "city": "Barranquilla",
+      "is_active": false
+    }
+  ],
+
+  "pins": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "school_id": 1,
+      "is_new": true,
+      "is_active": false,
+      "level": 10
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "school_id": 2,
+      "is_new": true,
+      "is_active": true,
+      "level": 8
+    }
+  ]
+}
